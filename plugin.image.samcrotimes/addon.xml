@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.image.samcrotimes" name="Samcro Times" 
+version="1.0.0"
+       provider-name="Sons of Anarchy">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">WELCOME TO THE SAMCRO TIMES</summary>
+    <description>
+      Veja as capas dos principais jornais diariamente no Kodi.</description> 
+    <license>GPL 2.0</license>
+  </extension>
+</addon>

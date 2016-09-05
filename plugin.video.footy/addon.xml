@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.footy"
+       name="SOA Highlights"
+       version="1.0.0"
+       provider-name="Sons Of Anarchy">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"  version="1.0.5"/> 
+		<import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<language>pt</language>
+		<platform>all</platform>
+		<summary lang="en">Football Highlights addon for Kodi</summary>
+		<description lang="en">Football Highlights</description>
+		<disclaimer lang="en">Independent and opensource addon not endorsed by OKGoals</disclaimer>
+    </extension>
+</addon>

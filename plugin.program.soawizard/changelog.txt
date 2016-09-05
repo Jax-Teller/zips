@@ -1,0 +1,6 @@
+﻿Versão 0.0.6      03/08/2016     
+CORREÇÃO DO ERROS NO WIZARD
+
+Versão 0.0.1        28/05/2016
+-------------------------------
+START SOA Wizard
